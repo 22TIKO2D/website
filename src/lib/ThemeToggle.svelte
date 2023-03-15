@@ -37,6 +37,19 @@
   }
 </script>
 
+<svelte:head>
+  <script>
+    // Avoid flash when the page loads by adding the class before anything else renders.
+    document
+      .querySelector("html")
+      .classList.toggle(
+        "dark",
+        (localStorage.getItem("theme") ??
+          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) == "dark"
+      );
+  </script>
+</svelte:head>
+
 <!-- Button to toggle between the light and dark themes. -->
 <button
   on:click={() => darkMode.update((value) => !value)}
