@@ -1,3 +1,4 @@
+<!-- Logo list seen at the bottom of the page. -->
 <script lang="ts">
   import darkMode from "$lib/darkMode";
   import { locale } from "$lib/translations";
@@ -21,7 +22,9 @@
   import tamkFiDark from "$lib/assets/tamk-fi-dark.png";
 </script>
 
+<!-- Center the logos. -->
 <div class="flex flex-wrap justify-center items-center gap-4 p-2 my-4">
+  <!-- Light logos when dark mode is enabled. -->
   {#if $darkMode}
     <img
       src={euDark}
@@ -50,6 +53,7 @@
       loading="lazy"
       decoding="async"
     />
+    <!-- These logos have two language variants. -->
     {#if $locale == "fi"}
       <img
         src={tikoFiDark}
@@ -89,6 +93,7 @@
         decoding="async"
       />
     {/if}
+    <!-- Dark logos when dark mode is disabled. -->
   {:else}
     <img
       src={eu}
@@ -117,6 +122,7 @@
       loading="lazy"
       decoding="async"
     />
+    <!-- These logos have two language variants. -->
     {#if $locale == "fi"}
       <img
         src={tikoFi}

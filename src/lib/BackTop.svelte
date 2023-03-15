@@ -1,9 +1,16 @@
+<!--
+Back to the top button found in the lower right corner of the screen.
+Uses fixed position to stay in place and fades in when scrolled half screen down.
+-->
 <script lang="ts">
   import { fade } from "svelte/transition";
 
   import Arrow from "virtual:icons/material-symbols/arrow-circle-up-rounded";
 
+  // Scroll position from the top of the page.
   let y = 0;
+
+  // Visible viewport's height.
   let h = 0;
 </script>
 

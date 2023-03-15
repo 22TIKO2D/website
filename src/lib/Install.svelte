@@ -1,11 +1,14 @@
+<!-- Big install button at the top of the page. -->
 <script lang="ts">
   import PlayStore from "virtual:icons/bxl/play-store";
 
   import { t } from "$lib/translations";
 
+  // Link to the Google Play.
   export let link;
 </script>
 
+<!-- Center the install button. -->
 <div class="w-full flex justify-center">
   <a
     href={link}
