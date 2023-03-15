@@ -56,16 +56,16 @@
         width="705"
         height="277"
         alt="TIKO"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
       <img
         src={tamkFiDark}
-        width="895"
+        width="905"
         height="353"
         alt="TAMK"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
@@ -75,7 +75,7 @@
         width="705"
         height="277"
         alt="TIKO"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
@@ -84,7 +84,7 @@
         width="895"
         height="353"
         alt="TAMK"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
@@ -123,16 +123,16 @@
         width="705"
         height="277"
         alt="TIKO"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
       <img
         src={tamkFi}
-        width="895"
+        width="905"
         height="353"
         alt="TAMK"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
@@ -142,7 +142,7 @@
         width="705"
         height="277"
         alt="TIKO"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
@@ -151,7 +151,7 @@
         width="895"
         height="353"
         alt="TAMK"
-        class="max-w-80 sm:max-w-100"
+        class="w-full max-w-80 sm:max-w-100"
         loading="lazy"
         decoding="async"
       />
