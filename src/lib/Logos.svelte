@@ -12,12 +12,36 @@
 
 <div class="flex flex-wrap justify-center items-center gap-4 p-2 my-4">
   {#if $darkMode}
-    <img src={euDark} width="252" height="235" alt="Euroopan sosiaalirahasto" />
-    <img src={tykkyDark} width="227" height="261" alt="TYKKY" />
-    <img src={vipuvoimaaDark} width="242" height="161" alt="Vipuvoimaa EU:lta" />
+    <img
+      src={euDark}
+      width="252"
+      height="235"
+      alt="Euroopan sosiaalirahasto"
+      class="max-w-40 sm:max-w-none"
+    />
+    <img src={tykkyDark} width="227" height="261" alt="TYKKY" class="max-w-40 sm:max-w-none" />
+    <img
+      src={vipuvoimaaDark}
+      width="242"
+      height="161"
+      alt="Vipuvoimaa EU:lta"
+      class="max-w-40 sm:max-w-none"
+    />
   {:else}
-    <img src={eu} width="252" height="235" alt="Euroopan sosiaalirahasto" />
-    <img src={tykky} width="227" height="261" alt="TYKKY" />
-    <img src={vipuvoimaa} width="242" height="161" alt="Vipuvoimaa EU:lta" />
+    <img
+      src={eu}
+      width="252"
+      height="235"
+      alt="Euroopan sosiaalirahasto"
+      class="max-w-40 sm:max-w-none"
+    />
+    <img src={tykky} width="227" height="261" alt="TYKKY" class="max-w-40 sm:max-w-none" />
+    <img
+      src={vipuvoimaa}
+      width="242"
+      height="161"
+      alt="Vipuvoimaa EU:lta"
+      class="max-w-40 sm:max-w-none"
+    />
   {/if}
 </div>
