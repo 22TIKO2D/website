@@ -18,14 +18,26 @@
       height="235"
       alt="Euroopan sosiaalirahasto"
       class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
     />
-    <img src={tykkyDark} width="227" height="261" alt="TYKKY" class="max-w-40 sm:max-w-none" />
+    <img
+      src={tykkyDark}
+      width="227"
+      height="261"
+      alt="TYKKY"
+      class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
+    />
     <img
       src={vipuvoimaaDark}
       width="242"
       height="161"
       alt="Vipuvoimaa EU:lta"
       class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
     />
   {:else}
     <img
@@ -34,14 +46,26 @@
       height="235"
       alt="Euroopan sosiaalirahasto"
       class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
     />
-    <img src={tykky} width="227" height="261" alt="TYKKY" class="max-w-40 sm:max-w-none" />
+    <img
+      src={tykky}
+      width="227"
+      height="261"
+      alt="TYKKY"
+      class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
+    />
     <img
       src={vipuvoimaa}
       width="242"
       height="161"
       alt="Vipuvoimaa EU:lta"
       class="max-w-40 sm:max-w-none"
+      loading="lazy"
+      decoding="async"
     />
   {/if}
 </div>
