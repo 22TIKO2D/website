@@ -13,7 +13,7 @@
 <Logos />
 
 <!-- "z-4" Show above the back to the top button as it would otherwise occlude the links. -->
-<footer class="z-4 px-4 py-6 w-full bg-blue-100 dark:bg-zinc-800">
+<footer class="z-4 px-4 py-6 w-full bg-blue-100 dark:bg-zinc-800 transition-colors">
   <div class="flex flex-col sm:flex-row items-center gap-4 max-w-screen-sm mx-auto justify-center">
     <!-- Top/left content. -->
     <div class="flex flex-wrap items-center gap-4 justify-center">

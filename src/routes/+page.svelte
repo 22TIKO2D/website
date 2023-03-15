@@ -19,7 +19,7 @@
 
 <!-- Cool looking gradient at the top of the page. -->
 <div
-  class="h-40 w-full absolute top-0 -z-1 bg-gradient-to-b from-blue-200 to-transparent dark:from-slate-800"
+  class="h-40 w-full absolute top-0 -z-1 bg-gradient-to-b from-blue-200 to-transparent dark:from-slate-800 transition-colors"
 />
 
 <!-- Main content container. -->

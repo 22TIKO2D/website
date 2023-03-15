@@ -1,7 +1,9 @@
+/* Outline when element is selected with the keyboard. */
 * {
   @apply focus-visible:(outline-blue-800 outline-dashed outline-offset-1 outline-2) selection:(bg-blue-500 text-white) dark:focus-visible:outline-blue-300;
 }
 
+/* Body background and text. */
 body {
-  @apply bg-white text-sky-900 hyphens-auto dark:(bg-dark-600 text-sky-100);
+  @apply bg-white text-sky-900 hyphens-auto dark:(bg-dark-600 text-sky-100) transition-colors;
 }

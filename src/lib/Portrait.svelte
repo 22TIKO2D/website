@@ -28,7 +28,7 @@
   </picture>
   <!-- Show the name as a caption. -->
   <figcaption
-    class="text-center font-bold bg-blue-200 p-2 border-b-4 border-blue-300 rounded-b-xl shadow-md shadow-teal-800/20 dark:(bg-zinc-700 border-zinc-800 shadow-zinc-900/60)"
+    class="text-center font-bold bg-blue-200 p-2 border-b-4 border-blue-300 rounded-b-xl shadow-md shadow-teal-800/20 dark:(bg-zinc-700 border-zinc-800 shadow-zinc-900/60) transition-all"
   >
     {name}
   </figcaption>
