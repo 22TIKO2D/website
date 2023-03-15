@@ -1,9 +1,11 @@
 <script lang="ts">
-  import { t, locale } from "$lib/translations";
+  import { t, locale, locales } from "$lib/translations";
   import { browser } from "$app/environment";
 
   if (browser) {
-    locale.set(localStorage.getItem("lang") || locale.get());
+    let browserLang = navigator.language.split("-")[0] || locale.get();
+    if (locales.get().indexOf(browserLang) < 0) browserLang = locale.get();
+    locale.set(localStorage.getItem("lang") || browserLang);
     locale.subscribe((value) => localStorage.setItem("lang", value));
   }
 </script>
