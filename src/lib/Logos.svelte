@@ -1,5 +1,6 @@
 <script lang="ts">
   import darkMode from "$lib/darkMode";
+  import { locale } from "$lib/translations";
 
   import eu from "$lib/assets/eu.png";
   import tykky from "$lib/assets/tykky.png";
@@ -8,6 +9,16 @@
   import euDark from "$lib/assets/eu-dark.png";
   import tykkyDark from "$lib/assets/tykky-dark.png";
   import vipuvoimaaDark from "$lib/assets/vipuvoimaa-dark.png";
+
+  import tiko from "$lib/assets/tiko-en.png";
+  import tikoDark from "$lib/assets/tiko-en-dark.png";
+  import tikoFi from "$lib/assets/tiko-fi.png";
+  import tikoFiDark from "$lib/assets/tiko-fi-dark.png";
+
+  import tamk from "$lib/assets/tamk-en.png";
+  import tamkDark from "$lib/assets/tamk-en-dark.png";
+  import tamkFi from "$lib/assets/tamk-fi.png";
+  import tamkFiDark from "$lib/assets/tamk-fi-dark.png";
 </script>
 
 <div class="flex flex-wrap justify-center items-center gap-4 p-2 my-4">
@@ -39,6 +50,45 @@
       loading="lazy"
       decoding="async"
     />
+    {#if $locale == "fi"}
+      <img
+        src={tikoFiDark}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamkFiDark}
+        width="895"
+        height="353"
+        alt="TAMK"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {:else}
+      <img
+        src={tikoDark}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamkDark}
+        width="895"
+        height="353"
+        alt="TAMK"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {/if}
   {:else}
     <img
       src={eu}
@@ -67,5 +117,44 @@
       loading="lazy"
       decoding="async"
     />
+    {#if $locale == "fi"}
+      <img
+        src={tikoFi}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamkFi}
+        width="895"
+        height="353"
+        alt="TAMK"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {:else}
+      <img
+        src={tiko}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamk}
+        width="895"
+        height="353"
+        alt="TAMK"
+        class="max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {/if}
   {/if}
 </div>
