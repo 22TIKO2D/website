@@ -1,7 +1,7 @@
-# Job Hunter's website
+# Tie Työhön's website
 
 This is the [website](https://webpages.tuni.fi/22tiko2d/) for
-[Job Hunter](https://github.com/22TIKO2D/GAME-PROJECT-GOTY-2023) game.
+[Tie Työhön](https://github.com/22TIKO2D/GAME-PROJECT-GOTY-2023) game.
 It was made using [SvelteKit](https://kit.svelte.dev/) and
 [Windi CSS](https://windicss.org/).
 

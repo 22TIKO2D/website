@@ -13,7 +13,7 @@
 </script>
 
 <Meta
-  title="Job Hunter"
+  title="Tie Työhön"
   desc="Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
 />
 
@@ -28,7 +28,7 @@
   <h1
     class="text-center text-6xl font-black my-4 text-transparent bg-clip-text bg-gradient-to-br from-teal-400 via-indigo-400 to-purple-400"
   >
-    Job Hunter
+    Tie Työhön
   </h1>
 
   <!-- Install the game button. -->
