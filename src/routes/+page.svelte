@@ -27,7 +27,7 @@
 <div class="container mx-auto my-8 px-4">
   <!-- Title text with a gradient filled text. -->
   <h1 class="flex justify-center text-6xl font-black my-4 text-indigo-400">
-    <img src={logo} alt="Tie Työhön" width="400" height="222" />
+    <img src={logo} alt="Tie Työhön" width="400" height="232" />
   </h1>
 
   <!-- Install the game button. -->
