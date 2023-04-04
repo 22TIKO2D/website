@@ -17,13 +17,10 @@
     const initialValue =
       (localStorage.getItem("theme") ?? (query.matches ? "dark" : "light")) == "dark";
 
-    // Get the <html> element from the DOM.
-    const html = document.querySelector("html");
-
     // When the theme changes.
     darkMode.subscribe((value) => {
       // Toggle between having the "dark" class defined in the <html> element or not.
-      html.classList.toggle("dark", value);
+      document.documentElement.classList.toggle("dark", value);
 
       // And store the value to local storage.
       localStorage.setItem("theme", value ? "dark" : "light");

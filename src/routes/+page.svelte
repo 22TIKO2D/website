@@ -8,6 +8,7 @@
   import Install from "$lib/Install.svelte";
   import Portrait from "$lib/Portrait.svelte";
 
+  import logo from "$lib/assets/logo.png";
   import chadJpg from "$lib/assets/chad.jpg";
   import chadWebp from "$lib/assets/chad.webp";
 </script>
@@ -25,10 +26,8 @@
 <!-- Main content container. -->
 <div class="container mx-auto my-8 px-4">
   <!-- Title text with a gradient filled text. -->
-  <h1
-    class="text-center text-6xl font-black my-4 text-transparent bg-clip-text bg-gradient-to-br from-teal-400 via-indigo-400 to-purple-400"
-  >
-    Tie Työhön
+  <h1 class="flex justify-center text-6xl font-black my-4 text-indigo-400">
+    <img src={logo} alt="Tie Työhön" width="400" height="222" />
   </h1>
 
   <!-- Install the game button. -->

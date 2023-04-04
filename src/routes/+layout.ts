@@ -5,7 +5,7 @@ export const prerender = true;
 export const trailingSlash = "always";
 
 export const load: LayoutLoad = async () => {
-  await loadTranslations(locale.get() || "en");
+  await loadTranslations(locale.get() || "fi");
 
   return {};
 };

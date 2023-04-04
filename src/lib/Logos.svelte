@@ -54,26 +54,7 @@
       decoding="async"
     />
     <!-- These logos have two language variants. -->
-    {#if $locale == "fi"}
-      <img
-        src={tikoFiDark}
-        width="705"
-        height="277"
-        alt="TIKO"
-        class="w-full max-w-80 sm:max-w-100"
-        loading="lazy"
-        decoding="async"
-      />
-      <img
-        src={tamkFiDark}
-        width="905"
-        height="353"
-        alt="TAMK"
-        class="w-full max-w-80 sm:max-w-100"
-        loading="lazy"
-        decoding="async"
-      />
-    {:else}
+    {#if $locale == "en"}
       <img
         src={tikoDark}
         width="705"
@@ -86,6 +67,25 @@
       <img
         src={tamkDark}
         width="895"
+        height="353"
+        alt="TAMK"
+        class="w-full max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {:else}
+      <img
+        src={tikoFiDark}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="w-full max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamkFiDark}
+        width="905"
         height="353"
         alt="TAMK"
         class="w-full max-w-80 sm:max-w-100"
@@ -123,26 +123,7 @@
       decoding="async"
     />
     <!-- These logos have two language variants. -->
-    {#if $locale == "fi"}
-      <img
-        src={tikoFi}
-        width="705"
-        height="277"
-        alt="TIKO"
-        class="w-full max-w-80 sm:max-w-100"
-        loading="lazy"
-        decoding="async"
-      />
-      <img
-        src={tamkFi}
-        width="905"
-        height="353"
-        alt="TAMK"
-        class="w-full max-w-80 sm:max-w-100"
-        loading="lazy"
-        decoding="async"
-      />
-    {:else}
+    {#if $locale == "en"}
       <img
         src={tiko}
         width="705"
@@ -155,6 +136,25 @@
       <img
         src={tamk}
         width="895"
+        height="353"
+        alt="TAMK"
+        class="w-full max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+    {:else}
+      <img
+        src={tikoFi}
+        width="705"
+        height="277"
+        alt="TIKO"
+        class="w-full max-w-80 sm:max-w-100"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        src={tamkFi}
+        width="905"
         height="353"
         alt="TAMK"
         class="w-full max-w-80 sm:max-w-100"
