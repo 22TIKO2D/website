@@ -62,70 +62,29 @@
     allowfullscreen
   />
 
-  <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-    nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-    Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-    est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-    reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-    reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-    nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-    Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-    est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-    reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-    reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-    nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-    Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-    est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-    reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-    reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-    nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-    Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-    est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-    reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-    reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.
-  </p>
+  <h2>{$t("common.subtitle")}</h2>
+
+  <p>{$t("common.content")}</p>
+
+  <h2>{$t("common.people")}</h2>
 
   <!-- Portrait pictures for everyone in the team. -->
   <div class="grid gap-4 justify-items-center my-6 grid-cols-2 md:grid-cols-4">
-    <Portrait name="Chad" img="chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" img="chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" img="chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" img="chad" jpg={chadJpg} webp={chadWebp} />
+    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
+    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
+    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
+    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
   </div>
-
-  <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-    nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-    Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-    est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-    reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-    reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-    ullamco ut ea consectetur et est culpa et culpa duis.
-  </p>
 </div>
 
 <style>
   /* All the paragraphs share the same style. */
   p {
     @apply my-6 text-justify;
+  }
+
+  /* All the subtitles share the same style. */
+  h2 {
+    @apply text-3xl font-black text-center my-8;
   }
 </style>

@@ -1,10 +1,10 @@
 <!-- Meta tags in the head. -->
 <script lang="ts">
   // Title for the page.
-  export let title = undefined;
+  export let title: string | null = null;
 
   // Description for the page.
-  export let desc;
+  export let desc: string;
 
   // Main title on the page.
   const pageTitle = "22TIKO2D";

@@ -1,13 +1,13 @@
 <!-- Portrait for everyone in the team. -->
 <script lang="ts">
   // Name of the person.
-  export let name;
+  export let name: string;
 
   // JPEG image.
-  export let jpg;
+  export let jpg: string;
 
   // WebP image.
-  export let webp;
+  export let webp: string;
 </script>
 
 <!-- Center the portrait. -->

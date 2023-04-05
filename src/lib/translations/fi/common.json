@@ -8,5 +8,8 @@
   "go-back": "Palaa takaisin pääsivulle.",
   "source": "Lähdekoodi",
   "browse-code": "Tai selaa lähdekoodia",
-  "theme": "Vaihda teemaa"
+  "theme": "Vaihda teemaa",
+  "content": "Tässä vuoropohjaisessa roolipelissä olet lumiukko, joka osallistuu työmarkkinoita käsittelevään festivaaliin. Tässä tapahtumassa, tehtäväsi on auttaa lumiukkotovereitasi heidän monissa ongelmissa, aina tietokoneviruksista rikkoutuneisiin autoihin saakka ja jopa pelättyyn Kareniin! Mitä enemmän autat muita, sitä enemmän kokemusta saat ja sitä tehokkaammin voit ratkaista heidän ongelmansa. Älä anna lumiukkotovereidesi viisauden pudota kuuroille korville! Heillä on arvokasta tietoa, joka voi osoittautua hyödylliseksi tulevissa työpyrkimyksissäsi. Ota vastaan APUVA henkilökunnan tarjoamia haasteita oppiaksesi uusia käytettäviä taitoja! Nämä taidot voivat jopa olla avain menestykseesi tulevaisuudessa.",
+  "subtitle": "APUVA festivaali on saapunut!",
+  "people": "Tekijät"
 }
