@@ -37,13 +37,11 @@
 <svelte:head>
   <script>
     // Avoid flash when the page loads by adding the class before anything else renders.
-    document
-      .querySelector("html")
-      .classList.toggle(
-        "dark",
-        (localStorage.getItem("theme") ??
-          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) == "dark"
-      );
+    document.documentElement.classList.toggle(
+      "dark",
+      (localStorage.getItem("theme") ??
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) == "dark"
+    );
   </script>
 </svelte:head>
 
