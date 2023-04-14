@@ -10,8 +10,15 @@
 
   import logo from "$lib/assets/logo.png";
   import logox2 from "$lib/assets/logo-x2.png";
-  import chadJpg from "$lib/assets/chad.jpg";
-  import chadWebp from "$lib/assets/chad.webp";
+
+  import alexJpg from "$lib/assets/alex.jpg";
+  import alexWebp from "$lib/assets/alex.webp";
+
+  import jarkkoJpg from "$lib/assets/jarkko.jpg";
+  import jarkkoWebp from "$lib/assets/jarkko.webp";
+
+  import unknownJpg from "$lib/assets/unknown.jpg";
+  import unknownWebp from "$lib/assets/unknown.webp";
 </script>
 
 <Meta
@@ -69,11 +76,35 @@
   <h2>{$t("common.people")}</h2>
 
   <!-- Portrait pictures for everyone in the team. -->
-  <div class="grid gap-4 justify-items-center my-6 grid-cols-2 md:grid-cols-4">
-    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
-    <Portrait name="Chad" jpg={chadJpg} webp={chadWebp} />
+  <div class="grid gap-4 justify-items-center my-6 sm:grid-cols-2 lg:grid-cols-4">
+    <Portrait
+      hatOffset={[86, -78]}
+      name="Alex Yli-Paavalniemi"
+      desc={$t("common.alex")}
+      jpg={alexJpg}
+      webp={alexWebp}
+    />
+    <Portrait
+      hatOffset={[92, -82]}
+      name="Jarkko Kuukkanen"
+      desc={$t("common.jarkko")}
+      jpg={jarkkoJpg}
+      webp={jarkkoWebp}
+    />
+    <Portrait
+      hatOffset={[165, -25]}
+      name="Neea Merivirta"
+      desc={$t("common.neea")}
+      jpg={unknownJpg}
+      webp={unknownWebp}
+    />
+    <Portrait
+      hatOffset={[165, -25]}
+      name="Roosa Pasanen"
+      desc={$t("common.roosa")}
+      jpg={unknownJpg}
+      webp={unknownWebp}
+    />
   </div>
 </div>
 
