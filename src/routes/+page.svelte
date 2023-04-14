@@ -78,28 +78,28 @@
   <!-- Portrait pictures for everyone in the team. -->
   <div class="grid gap-4 justify-items-center my-6 sm:grid-cols-2 lg:grid-cols-4">
     <Portrait
-      hatOffset={[86, -78]}
+      hatOffset={[28, -25]}
       name="Alex Yli-Paavalniemi"
       desc={$t("common.alex")}
       jpg={alexJpg}
       webp={alexWebp}
     />
     <Portrait
-      hatOffset={[92, -82]}
+      hatOffset={[31, -27]}
       name="Jarkko Kuukkanen"
       desc={$t("common.jarkko")}
       jpg={jarkkoJpg}
       webp={jarkkoWebp}
     />
     <Portrait
-      hatOffset={[165, -25]}
+      hatOffset={[54, -8]}
       name="Neea Merivirta"
       desc={$t("common.neea")}
       jpg={unknownJpg}
       webp={unknownWebp}
     />
     <Portrait
-      hatOffset={[165, -25]}
+      hatOffset={[54, -8]}
       name="Roosa Pasanen"
       desc={$t("common.roosa")}
       jpg={unknownJpg}
