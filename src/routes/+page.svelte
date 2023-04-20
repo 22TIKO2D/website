@@ -24,10 +24,7 @@
   import roosaWebp from "$lib/assets/roosa.webp";
 </script>
 
-<Meta
-  title="Tie Työhön"
-  desc="Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
-/>
+<Meta title="Tie Työhön" desc={$t("common.desc")} />
 
 <!-- Cool looking gradient at the top of the page. -->
 <div

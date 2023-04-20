@@ -6,7 +6,7 @@
   import { t } from "$lib/translations";
 </script>
 
-<Meta title="404" desc="Page Not Found" />
+<Meta title="404" desc={$t("common.not-found")} />
 
 <div class="container mx-auto my-8 px-4">
   <h1 class="my-6 text-4xl font-bold">404</h1>
