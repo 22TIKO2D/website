@@ -42,7 +42,7 @@
     "tslib": "^2.5.0",
     "typescript": "^5.0.4",
     "unplugin-icons": "^0.16.1",
-    "vite": "^4.2.2",
+    "vite": "^4.3.0",
     "vite-plugin-windicss": "^1.8.10",
     "windicss": "^3.5.6"
   },

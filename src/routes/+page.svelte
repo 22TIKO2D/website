@@ -17,8 +17,11 @@
   import jarkkoJpg from "$lib/assets/jarkko.jpg";
   import jarkkoWebp from "$lib/assets/jarkko.webp";
 
-  import unknownJpg from "$lib/assets/unknown.jpg";
-  import unknownWebp from "$lib/assets/unknown.webp";
+  import neeaJpg from "$lib/assets/neea.jpg";
+  import neeaWebp from "$lib/assets/neea.webp";
+
+  import roosaJpg from "$lib/assets/roosa.jpg";
+  import roosaWebp from "$lib/assets/roosa.webp";
 </script>
 
 <Meta
@@ -92,18 +95,18 @@
       webp={jarkkoWebp}
     />
     <Portrait
-      hatOffset={[54, -8]}
+      hatOffset={[38, -23]}
       name="Neea Merivirta"
       desc={$t("common.neea")}
-      jpg={unknownJpg}
-      webp={unknownWebp}
+      jpg={neeaJpg}
+      webp={neeaWebp}
     />
     <Portrait
-      hatOffset={[54, -8]}
+      hatOffset={[28, -21]}
       name="Roosa Pasanen"
       desc={$t("common.roosa")}
-      jpg={unknownJpg}
-      webp={unknownWebp}
+      jpg={roosaJpg}
+      webp={roosaWebp}
     />
   </div>
 </div>
