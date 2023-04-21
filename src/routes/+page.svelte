@@ -42,7 +42,7 @@
   </h1>
 
   <!-- Install the game button. -->
-  <Install link="https://play.google.com/store/apps/details?id=com.tencent.ig" />
+  <Install link="https://play.google.com/store/apps/details?id=com.TAMK_22TIKO2D.TieTyohon" />
 
   <!-- Center the link. -->
   <div class="text-center">
