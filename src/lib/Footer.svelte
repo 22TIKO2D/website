@@ -2,7 +2,9 @@
 <script lang="ts">
   import Portal from "virtual:icons/material-symbols/captive-portal-rounded";
   import GitHub from "virtual:icons/mdi/github";
+  import PrivacyPolicy from "virtual:icons/iconoir/privacy-policy";
 
+  import { base } from "$app/paths";
   import { t } from "$lib/translations";
 
   import Logos from "$lib/Logos.svelte";
@@ -26,6 +28,11 @@
       <a class="link" href="https://github.com/22TIKO2D/website" rel="external" target="_blank">
         <GitHub class="align-middle" />
         <span class="align-middle">{$t("common.source")}</span>
+      </a>
+      <!-- Link to the privacy policy. -->
+      <a class="link" href="{base}/policy/">
+        <PrivacyPolicy class="align-middle" />
+        <span class="align-middle">{$t("common.policy")}</span>
       </a>
     </div>
     <!-- Bottom/right content. -->

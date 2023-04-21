@@ -10,6 +10,9 @@ devDependencies:
   '@iconify-json/ic':
     specifier: ^1.1.13
     version: 1.1.13
+  '@iconify-json/iconoir':
+    specifier: ^1.1.26
+    version: 1.1.26
   '@iconify-json/material-symbols':
     specifier: ^1.1.39
     version: 1.1.39
@@ -24,7 +27,7 @@ devDependencies:
     version: 2.0.2(@sveltejs/kit@1.15.7)
   '@sveltejs/kit':
     specifier: ^1.15.7
-    version: 1.15.7(svelte@3.58.0)(vite@4.3.0)
+    version: 1.15.7(svelte@3.58.0)(vite@4.3.1)
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.59.0
     version: 5.59.0(@typescript-eslint/parser@5.59.0)(eslint@8.38.0)(typescript@5.0.4)
@@ -65,11 +68,11 @@ devDependencies:
     specifier: ^0.16.1
     version: 0.16.1
   vite:
-    specifier: ^4.3.0
-    version: 4.3.0
+    specifier: ^4.3.1
+    version: 4.3.1
   vite-plugin-windicss:
     specifier: ^1.8.10
-    version: 1.8.10(vite@4.3.0)
+    version: 1.8.10(vite@4.3.1)
   windicss:
     specifier: ^3.5.6
     version: 3.5.6
@@ -358,6 +361,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
+  /@iconify-json/iconoir@1.1.26:
+    resolution: {integrity: sha512-MSIPBJTN1xiXfKKwNj0/bVZnAkivCwGJDV90z39sq/hxp3JeW3tZKLI4DkuPjx5rmK72f01fBaxfLDFGAJANTg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/material-symbols@1.1.39:
     resolution: {integrity: sha512-nabSDPSyNp0jRmU3OakaIJgCUL0xl1KREL53LzaFVV6kC/4U+ZQrQHt2jcqVOJbW8LKjCG231OuHPCrR0pcAzw==}
     dependencies:
@@ -443,10 +452,10 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.15.7(svelte@3.58.0)(vite@4.3.0)
+      '@sveltejs/kit': 1.15.7(svelte@3.58.0)(vite@4.3.1)
     dev: true
 
-  /@sveltejs/kit@1.15.7(svelte@3.58.0)(vite@4.3.0):
+  /@sveltejs/kit@1.15.7(svelte@3.58.0)(vite@4.3.1):
     resolution: {integrity: sha512-dgdKExsMJ16X3q8tEcuDlv+QIWAlJcf7IqCU2HWV13nmtTzwSA2n4VtEx9Gy5OGhH0SUAGNIupmlf0TdFSMXbw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
@@ -455,7 +464,7 @@ packages:
       svelte: ^3.54.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.0.4(svelte@3.58.0)(vite@4.3.0)
+      '@sveltejs/vite-plugin-svelte': 2.0.4(svelte@3.58.0)(vite@4.3.1)
       '@types/cookie': 0.5.1
       cookie: 0.5.0
       devalue: 4.3.0
@@ -469,12 +478,12 @@ packages:
       svelte: 3.58.0
       tiny-glob: 0.2.9
       undici: 5.20.0
-      vite: 4.3.0
+      vite: 4.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte@2.0.4(svelte@3.58.0)(vite@4.3.0):
+  /@sveltejs/vite-plugin-svelte@2.0.4(svelte@3.58.0)(vite@4.3.1):
     resolution: {integrity: sha512-pjqhW00KwK2uzDGEr+yJBwut+D+4XfJO/+bHHdHzPRXn9+1Jeq5JcFHyrUiYaXgHtyhX0RsllCTm4ssAx4ZY7Q==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -487,8 +496,8 @@ packages:
       magic-string: 0.30.0
       svelte: 3.58.0
       svelte-hmr: 0.15.1(svelte@3.58.0)
-      vite: 4.3.0
-      vitefu: 0.2.4(vite@4.3.0)
+      vite: 4.3.1
+      vitefu: 0.2.4(vite@4.3.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1579,8 +1588,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup@3.20.6:
-    resolution: {integrity: sha512-2yEB3nQXp/tBQDN0hJScJQheXdvU2wFhh6ld7K/aiZ1vYcak6N/BKjY1QrU6BvO2JWYS8bEs14FRaxXosxy2zw==}
+  /rollup@3.20.7:
+    resolution: {integrity: sha512-P7E2zezKSLhWnTz46XxjSmInrbOCiul1yf+kJccMxT56vxjHwCbDfoLbiqFgu+WQoo9ij2PkraYaBstgB2prBA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -1909,7 +1918,7 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /vite-plugin-windicss@1.8.10(vite@4.3.0):
+  /vite-plugin-windicss@1.8.10(vite@4.3.1):
     resolution: {integrity: sha512-scywsuzo46lcTBohspmF0WiwhWEte6p+OUVrX4yr7VMRvLHMHVfLtJReyD5pppjijG7YOwVsZn7XBWWZtF658Q==}
     peerDependencies:
       vite: ^2.0.1 || ^3.0.0 || ^4.0.0
@@ -1917,14 +1926,14 @@ packages:
       '@windicss/plugin-utils': 1.8.10
       debug: 4.3.4
       kolorist: 1.7.0
-      vite: 4.3.0
+      vite: 4.3.1
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.3.0:
-    resolution: {integrity: sha512-JTGFgDh3dVxeGBpuQX04Up+JZmuG6wu9414Ei36vQzaEruY/M4K0AgwtuB2b4HaBgB7R8l+LHxjB0jcgz4d2qQ==}
+  /vite@4.3.1:
+    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -1950,12 +1959,12 @@ packages:
     dependencies:
       esbuild: 0.17.17
       postcss: 8.4.23
-      rollup: 3.20.6
+      rollup: 3.20.7
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.4(vite@4.3.0):
+  /vitefu@0.2.4(vite@4.3.1):
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -1963,7 +1972,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.3.0
+      vite: 4.3.1
     dev: true
 
   /webpack-sources@3.2.3:
