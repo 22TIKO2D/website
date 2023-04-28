@@ -62,7 +62,7 @@
   <iframe
     width="560"
     height="315"
-    src="https://www.youtube-nocookie.com/embed/X0jyWzuffLo?autoplay=1"
+    src={`https://www.youtube-nocookie.com/embed/${$t("common.trailer")}?autoplay=1`}
     title="YouTube video player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     class="w-full h-auto aspect-video my-4 rounded-xl bg-black shadow-lg shadow-gray-800/30 dark:shadow-zinc-900/80"
